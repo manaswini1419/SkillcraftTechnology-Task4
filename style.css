@@ -8,7 +8,7 @@ body {
   color: #1e3a8a;
 }
 
-/* BIG CREATIVE BOX */
+
 .app-container {
   width: 800px;
   min-height: 500px;
@@ -17,14 +17,14 @@ body {
   padding: 40px;
 }
 
-/* TITLE */
+
 .app-container h1 {
   font-size: 32px;
   margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
-/* CREATIVE DIVIDER */
+
 .app-container h1::after {
   content: "";
   display: block;
@@ -62,7 +62,7 @@ button:hover {
   background: #1e40af;
 }
 
-/* EMPTY TEXT */
+
 #emptyMsg {
   margin: 40px 0;
   text-align: center;
@@ -70,7 +70,7 @@ button:hover {
   color: #64748b;
 }
 
-/* TASK LIST */
+
 ul {
   list-style: none;
   padding: 0;
@@ -85,7 +85,7 @@ li {
   align-items: center;
 }
 
-/* TASK INFO */
+
 .task-info span {
   font-size: 18px;
   font-weight: 500;
@@ -97,20 +97,20 @@ li {
   color: #64748b;
 }
 
-/* PRIORITY */
+
 .High { color: #dc2626; font-weight: bold; }
 .Medium { color: #d97706; font-weight: bold; }
 .Low { color: #16a34a; font-weight: bold; }
 
-/* COMPLETED */
+
 .completed span {
   text-decoration: line-through;
   color: #94a3b8;
 }
 
-/* ACTION BUTTONS */
 .task-actions button {
   margin-left: 6px;
   font-size: 14px;
   padding: 6px 8px;
 }
+
