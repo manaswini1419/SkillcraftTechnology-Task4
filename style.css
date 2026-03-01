@@ -34,7 +34,7 @@ body {
   margin-top: 10px;
 }
 
-/* INPUT AREA */
+
 .input-section {
   margin-top: 30px;
   display: grid;
@@ -113,4 +113,5 @@ li {
   font-size: 14px;
   padding: 6px 8px;
 }
+
 
