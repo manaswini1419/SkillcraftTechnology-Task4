@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+  <div class="header">
+    <h1>My Tasks</h1>
+    <p id="progress">0 of 0 completed</p>
+  </div>
+
+  <div class="input-section">
+    <input type="text" id="taskInput" placeholder="What needs to be done?">
+    <select id="priority">
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+    </select>
+    <input type="datetime-local" id="taskTime">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <p id="emptyMsg">No tasks yet. Add something 👆</p>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
